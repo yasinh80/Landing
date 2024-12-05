@@ -1,0 +1,156 @@
+/* 
+
+header top
+
+*/
+
+.header-top {
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  height: 6.8rem;
+}
+
+.header-top__wrapper,
+.nav-header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.header__address {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.header__address--text {
+  color: #c7c7c7;
+  font-size: 2.5rem;
+}
+.header__address--text:last-child {
+  font-size: 1.7rem;
+  margin-right: 1rem;
+}
+.header__address--line {
+  color: #c7c7c7;
+  position: relative;
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+  font-size: 1.7rem;
+}
+.header__address--line::after {
+  content: "";
+  position: absolute;
+  width: 0.1rem;
+  height: 2.5rem;
+  background-color: #c7c7c7;
+  left: -0.4rem;
+}
+.header-top__logo {
+  font-size: 2.3rem;
+}
+.header__logo-item {
+  margin-right: 1rem;
+  color: #c7c7c7;
+}
+.header__logo-item--wifi {
+  transform: rotate(45deg);
+}
+.header__address--logo {
+  color: #f6d014;
+  font-size: 2.3rem;
+}
+
+/* 
+
+nav-header
+
+*/
+
+.nav-header {
+  background-color: #ffffff;
+  height: 8.3rem;
+  width: 100%;
+}
+.nav-header__wrapper {
+  width: 100%;
+}
+.nav__logo {
+  margin-right: 1rem;
+  font-size: 5.5rem;
+  color: #f6d014;
+}
+
+.nav_list-items {
+  display: flex;
+}
+.nav_list-item {
+  margin-right: 2.3rem;
+  transition: all 150ms ease;
+  cursor: pointer;
+}
+.nav_list-item:last-child {
+  margin-left: 1rem;
+}
+.nav_list-item--active {
+  color: #f6d014;
+}
+.nav_list-item:hover,
+.header__logo-item:hover {
+  color: #f6d014;
+}
+
+/* 
+
+header-banner
+
+*/
+
+.header-banner {
+  background-image: url(../../../public/images/background.jpg);
+  height: 62rem;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header-banner__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.header-banner__title {
+  font-size: 7.2rem;
+  color: white;
+  max-width: 54rem;
+  font-weight: 600;
+  position: absolute;
+  top: 13rem;
+  right: 24rem;
+  z-index: 1;
+}
+
+.header-banner__link {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  background-color: #f6d014;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  width: 23rem;
+  height: 4rem;
+  font-size: 1.7rem;
+  top: 45rem;
+  right: 24rem;
+  padding: 0 0.5rem;
+  line-height: 4rem;
+}
+.header-banner__link:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+}
