@@ -1,0 +1,25 @@
+@import "./reset.css";
+@import "./grid.css";
+@import "./fonts.css";
+
+:root {
+    --text-color: #333333;
+    --app-bg-color: #fff;
+    --section-bg-color: #fff;
+    --primary-color: #0ABEAD;
+}
+
+
+html {
+    font-size: 10px;
+    
+}
+
+body {
+    font-family: "Yekan regular";
+    font-size: 1.6rem;
+    line-height: 1.5;
+   text-align: right;
+}
+
+

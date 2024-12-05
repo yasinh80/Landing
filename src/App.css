@@ -1,0 +1,14 @@
+@import './styles/app.css';
+@import './styles/responsive.css';
+
+
+
+/* @font-face {
+    font-family: 'CustomFont';
+    src: url('./assets/fonts/Sahel-FD.woff2') format('truetype');
+  }
+* {
+    font-family: 'CustomFont', sans-serif;
+    font-weight: 500;
+  }
+   */
